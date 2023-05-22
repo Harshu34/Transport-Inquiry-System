@@ -1,0 +1,13 @@
+#transcript {
+    font-size: 1.2rem;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px;
+}

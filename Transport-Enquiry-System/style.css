@@ -1,0 +1,248 @@
+*{
+    font-family: Franklin Gothic Medium, 'Arial Narrow', 'Arial', sans-serif;
+}
+
+.top-bar {
+    background: linear-gradient(90.04deg, #5d5be2 2.37%, #dd58c3 88.3%, #ffc530 100%);
+    margin-top: -10px;
+    margin-left:-8px;
+    margin-right:-8px;
+    height:30px;
+    
+}
+
+p.center{
+    text-align: center;
+    color:rgb(255 255 255);
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    font-family:cursive;
+}
+.nav{
+    
+    background: color #5d5be2;
+    margin-top:-8px;
+    margin-right:-8px;
+    margin-left:-8px;
+    display:block;
+    padding:1%;
+}
+
+.nav-ele{
+    display:inline;
+
+}
+.nav-heading{
+    padding:5%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: Franklin Gothic Medium, 'Arial Narrow', 'Arial', sans-serif;
+    color: white;
+    display:inline;
+    
+}
+.nav-space{
+    width:20px;
+    background-color: #dd58c3;
+    display:inline;
+
+    
+}
+
+.nav-side{
+    display:inline;
+    padding:10px;
+    font-size: 25px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:inline;
+
+}
+li {
+    float:right;
+    display:inline;
+    padding-right:25px;
+    padding-left:10px;
+
+}
+li a{
+    text-decoration: none;
+    color:aliceblue;
+    padding:5px;
+    margin:0;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.main{
+
+    padding:5%;
+    margin:1%;
+    display:flex;
+}
+
+
+
+.form-place{
+    font-weight:bolder;
+    margin:10%;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 17px;
+    border-radius: 22px;
+    
+    
+}
+
+input{
+    border-radius: 8px;
+    padding:1%;
+    font-size:28px;
+    margin:0.9%;
+    text-align:center;
+    border-radius:6px;
+}
+
+button img{
+    height:25px;
+    border-radius: 50%;
+}
+
+body{
+    background: radial-gradient(circle,#24246e,#06051f);
+    height: 100vh;
+}
+.wrapper span{
+    position: fixed;
+    top: -120px;
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+    animation: animate 10s linear infinite;    
+}
+.wrapper span:nth-child(1){
+    left: 60px;
+    animation-delay:0.6s;
+    border: 5px solid cyan;
+}
+.wrapper span:nth-child(2){
+    left: 60%;
+    animation-delay: 3s;
+    width: 60px;
+    height: 60px;
+    background: #ff4293;
+}
+.wrapper span:nth-child(3){
+    left: 20%;
+    animation-delay: 2s;
+    border: 5px solid #fff;    
+}
+.wrapper span:nth-child(4){
+    left: 30%;
+    animation-delay: 5s;
+    width: 80px;
+    height: 80px;
+    background: #befb46;
+}
+.wrapper span:nth-child(5){
+    left: 40%;
+    animation-delay: 1s;
+    border: 5px solid #ff4293;
+}
+.wrapper span:nth-child(6){
+    left: 50%;
+    animation-delay: 7s;
+    border: 5px solid deepskyblue;
+}
+.wrapper span:nth-child(7){
+    left: 60%;
+    animation-delay: 6s;
+    width: 100px;
+    height: 100px;
+    background: #ffd59e;
+}
+.wrapper span:nth-child(8){
+    left: 70%;
+    animation-delay: 8s;
+    border: 5px solid #befb46;
+}
+.wrapper span:nth-child(9){
+    left: 80%;
+    animation-delay: 6s;
+    width: 90px;
+    height: 90px;
+    background: cyan;
+}
+.wrapper span:nth-child(10){
+    left: 90%;
+    animation-delay: 4s;
+    border: 5px solid #fff;    
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content h2{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #fff;
+    font-family: montserrat;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+    line-height: 0.9;
+}
+.content h2 b{
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg);
+        opacity: 0;
+    }
+}
+#btn{
+    margin:20px 2px;
+    border-radius: 5px;
+}
+
+:root{
+    --white:#fff; 
+    --midblue:#5d5be2; 
+    --lightpink:#dd58c3;
+    --yellow:#ffc530; 
+    --alice:aliceblue; 
+    --navyblue:#24246e; 
+    --darkblue:#06051f;
+    --cyan:cyan; 
+    --darkpink:#ff4293;
+    --deepskyblue:deepskyblue;
+    --paleyellow:#ffd59e;
+    --lightyellow:#befb46; 
+  }
+
+.form-container{
+    height:400px;
+    width:100%;
+    background-color: white;
+    color:rgb(17, 206, 231);
+    font-size: 30px;
+}
